@@ -1,4 +1,4 @@
-# OnlineExam is a Simple Online Exam Taking Application developed in
+# Simple Online Exam Taking Application developed in
       Django Rest Framework
       MySQL
       React
