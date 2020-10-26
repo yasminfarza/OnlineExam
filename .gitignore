@@ -1,0 +1,5 @@
+.idea
+/env
+/venv
+online_exam/.env
+__pycache__

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- {% load static %} -->
+<!-- {% load staticfiles %}-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- App favicon -->
+    <!-- <link rel="shortcut icon" href="{% static 'assets/logo/logo-icon.jpg' %}"> -->
+    <link rel="shortcut icon" href="/static/assets/logo/logo-icon.jpg">
+
+    <!-- c3 plugin css -->
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'assets/libs/c3/c3.min.css' %}"> -->
+    <link rel="stylesheet" type="text/css" href="/static/assets/libs/c3/c3.min.css">
+
+
+
+    <!-- App css -->
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.css' %}"> -->
+    <link rel="stylesheet" type="text/css" href="/static/assets/css/bootstrap.css">
+    <!-- <link type="text/css" rel="stylesheet" href="{% static 'assets/css/icons.css' %}"> -->
+    <link type="text/css" rel="stylesheet" href="/static/assets/css/icons.css">
+    <link rel="stylesheet" type="text/css" href="/static/assets/css/app.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'assets/css/app.css' %}"> -->
+    <title>Online Exam Taking Application</title>
+    <style>
+        select.selectpicker {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- Vendor js -->
+    <!-- <script src="{% static 'assets/js/vendor.min.js' %}"></script> -->
+    <script src="/static/assets/js/vendor.min.js" defer></script>
+
+    <!-- plugins -->
+    <!-- <script src="{% static 'assets/libs/c3/c3.min.js' %}"></script> -->
+    <script src="/static/assets/libs/c3/c3.min.js" defer></script>
+    <!-- <script src="{% static 'assets/libs/d3/d3.min.js' %}"></script> -->
+    <script src="/static/assets/libs/d3/d3.min.js" defer></script>
+
+    <!-- dashboard init -->
+    <!-- <script src="{% static 'assets/js/pages/dashboard.init.js' %}"></script> -->
+    <script src="/static/assets/js/pages/dashboard.init.js" defer></script>
+
+    <!-- App js -->
+    <script src="/static/assets/js/app.min.js" defer></script>
+
+
+</body>
+
+</html>
